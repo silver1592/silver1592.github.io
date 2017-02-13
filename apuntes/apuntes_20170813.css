@@ -1,0 +1,39 @@
+.ejemploCaja{
+    border: 1px black dotted;
+    width: 82px;
+    margin: 10px auto;
+}
+.margen{
+    border: 1px green dotted;
+    width: 200px;
+    height: 80px;
+}
+
+.borde{
+    border: 1px orange dotted;
+    width: 150px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.pad{
+    border: 1px blue dotted;
+    width: 100px;
+    height: 40px;
+    margin: 10px auto;  
+}
+
+.e1{
+    color: red;
+}
+
+.e2{
+    color: blue;
+}
+.e3{
+    color: orange;
+}
+.e4{
+    color: green;
+}
+
