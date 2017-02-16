@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Como funciona la internet</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+<div id="hub">
+	<header><h1>Introduccion a la WEB</h1>
+		<nav><a href="index.html">Regresar</a></nav>
+	</header>
+	<main>
+		<section>
+			<h2> ¿Cómo funciona la internet?</h2>
+			<article>
+				<p>La internet no es más que una inmensa cantidad de computadoras conectadas entre sí con el fin de compartir información.</p>
+				<p>En un principio se había pensado para puro texto, por eso es el nombre de HTML (Hypertext Markup Language) y fue desarrollado por Tim Berners-Lee a principios de los 90's mientras trabajaba para CERN(European Council for Nuclear Research).</p>
+				<p>Tiempo después el lenguaje fue sufriendo cambios que fueron permitiendo multimedia e interactividad en las páginas, lo que nos lleva al internet de hoy en día.</p>
+				<p>Todo eso suena muy bonito y lo que quieras, pero ya es momento de hablar a lo que venimos.</p>
+				<p>Para poder visualizar las páginas web en nuestra computadora se lleva una enorme cantidad de pasos para los cuales se podría dedicar todo un curso sobre redes para explicarlos todos, pero aquí los veremos a grandes rasgos y enfocándonos principalmente a la parte de la programación.</p>
+				<h3>Procedimiento solicitud/respuesta del cliente/servidor</h3>
+				<p>Podemos dividir todo este proceso en los 3 actores principales:</p>
+				<ul>
+					<il><h4>Navegador</h4></il>
+					<il><h4>Internet</h4></il>
+					<il><h4>Servidor</h4></il>
+				</ul>
+				<p>Estos son los que se encargan de que la página de Facebook se muestre en tu navegador, realizando esta serie de pasos a la velocidad en la que haces clic.</p>
+				<ol>
+					<li><h4>Usuario escribe URL</h4><p>Cuando escribes en el explorador wwww.facebook.com, www.google.com o www.twiter.com</p></li>
+					<li><h4>DNS busca el url y regresa la IP</h4><p>La computadora no entiende letras, a ella háblale con números, pero para nosotros es más sencillo aprendernos un nombre que una serie de números que nada tiene que ver con lo que queremos buscar, y para eso existen los DNS(Domain Name System), de los cuales no vamos a hablar mucho, por ahora solo digamos que es un directorio, al cual la computadora va a solicita la dirección ip que corresponde con la pagina que escribimos en el navegador</p></li>
+					<li><h4>Solicita al servidor la información</h4><p>Una vez conocida la dirección del servidor que aloja la página web, la computadora se comunicara directamente con él, y es cuando le va a solicitar que le muestre la página</p></li>
+					<li><h4>Recibe la solicitud</h4><p>El servidor recibe la solicitud de la computadora y se encarga de atenderla</p></li>
+					<li><h4>Procesa la página</h4><p>Es aquí donde puede variar dependiendo del estilo de página que se trate, si es una página estática el servidor solo buscara la página entre todos sus archivos y la enviara, pero si es una página dinámica entonces se realizan esta serie de pasos</p>
+					<ol>
+						<li><h5>Obtiene página</h5><p>Busca la página en sus archivos </p></li>
+						<li><h5>Procesa Lenguaje</h5><p>En este punto es en donde entraría PHP, claro que solo si el archivo tiene algún comando para php, sino pasa directamente para enviarse a la computadora. También hay que mencionar que no solo es PHP, pueden ser muchos otros lenguajes, tales como Java, Python, C#, Ruby, etc.</p></li>
+					</ol>
+					</li>
+					<li><h4>Envía Resultado</h4><p>Una vez lista la página se envía a la computadora para que pueda ser visualizada</p></li>
+					<li><h4>Recibe página</h4><p>Por fin de regreso a la computadora, y con la pagina lista para desplegarla</p></li>
+					<li><h4>Despliega página</h4><p>Y por fin se muestra la página en nuestro navegador, y ahora si podemos ver todas las notificaciones y mensajes de nuestros amigos.</p></li>
+				</ol>
+				<p>En alguna situaciones pudiera a llegar a haber más pasos una vez desplegada la página, o quizás antes de desplegarla, pero eso lo veremos después cuando empecemos a ver JavaScript, pero por ahora no vamos a mortificarnos por eso y trabajemos con este esquema.</p>
+				<p>Sencillo ¿no?.</p>
+			</article>
+		</section>
+	</main>
+	<footer><h5>USALP</h5><h5>Facultad de Ingeniería</h5><h5>Área de computación e informática</h5><h5>Fernando Álvarez Flores</h5></footer>
+    </div>
+</body>
+</html>
