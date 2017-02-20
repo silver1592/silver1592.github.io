@@ -1,0 +1,35 @@
+Javascript
+
+----¿Por que Javascript?----
+Surge por parte de Brendan Eich, quien trabajaba en Netscape (1995)
+
+antes se llamaba Mocha y/o LiveScript
+en un acuerdo con Sun Microsystems (creador de Java) sedieron el nombre de Java y permitieron que se llamara Javascript
+
+Javascript es un lenguaje basado en objetos
+----¿Para que sirve?----
+    DOM (Document Object Model)
+    Modelo creado en para javascript para poder modificar los elementos en un documento html, en el, un documento html se ve representado como un arbol
+
+        <html>                                                  document
+            <head>                                                 |
+                <title>Hola</title>                                |
+            </head>                                         -----------------
+            <body>                                          |               |
+                <p>Hola Mundo</p>                          head           body
+            </body>                                         |               |
+        </html>                                             |               |
+                                                          title             p
+                                                            |               |
+                                                            |               |
+                                                           Hola          Hola mundo
+
+Microsoft creo tambien un lenguaje para competir (Jscript) y en vista del pleito que estas empresas generaron se creo un estandar ECMAScript
+
+----Uso y aplicacion de JS----
+*Animación
+*Geolocalización
+*Canvas
+*Audio/video
+*Procesamiento de formularios (validaciones)
+*Ajax
