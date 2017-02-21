@@ -1,0 +1,78 @@
+JavaScript
+
+Lenguaje
+    Operadores
+        operadores aritmeticos
+            +   suma 
+            -   resta
+            *   multiplicacion
+            /   divicion
+            %   modulo
+            ++  aumento en 1
+            --  decremento en 1
+            +=
+            -=
+            *=
+            /=
+            %=
+        Relacionales
+            ==  igual en valor
+            !=  diferente
+            >   mayor que
+            >=  mayor o igual que
+            <   menor que
+            <=  menor o igual que
+            === igual en valor y en tipo
+            !== diferente en valor pero igual en tipo
+        Logicos
+            &&
+            ||
+            !
+    
+    Condiciones y ciclos
+        Condiciones
+            if
+            if-else
+            switch
+        ciclos
+            while
+            do-while
+            for
+            foreach
+            return
+            break
+            continue
+
+    Tipos de datos
+                ____________________________
+        cadena                              |
+        numero                              |
+            entero                          |   cast
+            decimal                         |
+        boleano ____________________________|
+        arreglos
+        funciones
+    
+    cast (funciones)
+        Number()
+        String()
+        Boolean()
+        parseInt()
+        parseFloat()
+
+    _____________________________________________
+    |                                           |
+    |             ; es opcional                 |
+    |___________________________________________|
+
+Objetos de salida
+    Objetos         |       metodos             |      descripcion
+____________________|___________________________|_________________________________________________
+        window      |        alert()            |   Envia un mensaje al usuario en el cuadro de dialogo
+                    |   prompt() -> cadena      |   Pedir informacion al usuario
+                    | confirm()->true || false  |   Pedir confirmacion al usuario
+                    |                           |
+                    |                           |
+  window.documento  |    write()                |   escribe codigo html en el documento
+      console       |        log()              |   consola 
+                    |                           |
