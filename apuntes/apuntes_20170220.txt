@@ -27,9 +27,15 @@ Javascript es un lenguaje basado en objetos
 Microsoft creo tambien un lenguaje para competir (Jscript) y en vista del pleito que estas empresas generaron se creo un estandar ECMAScript
 
 ----Uso y aplicacion de JS----
+JAva es un lenguaje que se interpreta unicamente del lado del cliente 
+
 *Animación
 *Geolocalización
 *Canvas
 *Audio/video
 *Procesamiento de formularios (validaciones)
-*Ajax
+*Ajax (comunicacion servidor)
+*Elementos html dinamicos
+*Juegos en el navegador
+*Efectos y elementos flotantes
+*Programacion del lado del servidor (Node.js)
