@@ -40,3 +40,14 @@ Arreglos en Javascript
         -sort(<criterio>)
             +Ordena los elementos de manera ascendente tratandolos como cadenas
             +Se puede agregar una funcion de criterio
+        -shift()
+            +Elimina del inicio
+        -unshift()
+            +Inserta al inicio
+        -splice()
+            +agregar o eliminar
+        -slice()
+            +extrae un subarreglo
+        -indexOf()
+            +posicion del elemento en el arreglo
+        -forEach(<funcion (elemento, indice, arreglo){}>)

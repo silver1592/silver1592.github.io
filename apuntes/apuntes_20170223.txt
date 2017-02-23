@@ -1,0 +1,67 @@
+Funciones
+    Sintaxis
+        -Declaracion
+            +function nombreFuncion([parametros])
+            +{
+            +   Instrucciones.....
+            +}
+
+        -Exprecion (Si no lleva nombre se le conoce como funciones anonimas)
+            +var nombreFuncion = function [nombreOpcional]([parametros])
+            +{
+            +   Instrucciones......
+            +}
+
+        
+Objetos v1
+    Creacion
+        +var triangulo = new Object();                
+
+    Propiedades
+        +triangulo.base = 5;
+        +triangulo['altura']=0;
+
+    Metodos
+        +triangulo.area = funcion(){
+        +    console.log ('area='+this.base*this.altura/2);
+        +}
+
+    ejemplo de uso
+        +triangulo.altura = 10;
+        +triangulo.area();
+
+Objetos v2
+    Creacion
+        +var triangulo = {}
+
+        +var triangulo = {
+        +    base: 0,
+        +    altura: 0,
+        +    area: function(){
+        +        console.log ('area='+this.base*this.altura/2);
+        +    }
+        +}
+
+    Propiedades
+        +triangulo.base = 5;
+        +triangulo['altura']=10;
+    Metodos
+        +triangulo.area = funcion(){
+        +    console.log ('area='+this.base*this.altura/2);
+        +}
+    
+    Simulando un constructor
+        function Triangulo(base, altura)
+        {
+            this.base = base;
+            this.altura = altura;
+            this.area = function (){
+                console.log('area='+this.base*this.altura/2);
+            }
+        }
+
+        var t1 = new Triangulo(3,5);
+        var t2 = new Triangulo(6,10);
+
+        t1.area();
+        t2.area();
