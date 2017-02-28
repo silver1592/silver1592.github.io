@@ -1,0 +1,26 @@
+DOM (Document Object Mode)
+
+Representa el documento html en forma de estructura de arbol
+El documento se puede manipular facilmente a travez del arbol, es decir, agregar, eliminar, modificar elementos, etc.
+
+1) Acceder elementos del documento 
+    *document.getElementsByTagName(<etiqueta>)
+    *document.getElementsByClassName(<etiqueta>)
+    *document.getElementsById(<etiqueta>)
+
+2) Modificar el contenido de un elemento
+    *elemento.textContent =<texto>
+    *elemento.innerHTML = <codigoHTML>
+
+3) Agregar elementos nuevos
+    Realizar 5 pasos:
+    1)crear el elemento
+        createElement()
+    2)crear el contenido del elemento
+        createTextNode()
+    3) añadir el contenido al elemento
+        appendChild()
+    4) agregar atributos
+        setAttribute()
+    5) agregar el nuevo elemento al documento
+        appendChild()
