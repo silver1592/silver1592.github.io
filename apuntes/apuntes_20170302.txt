@@ -1,0 +1,39 @@
+Eventos en Javascript
+
+elemento ------------>evento ---------------> codigo
+            asocia              ejecutar
+
+Eventos
+    -UI
+        *scroll
+        *resize
+        *load
+        *......
+    -Teclado
+        *keypress
+        *keydown
+        *keyup
+    -Raton
+        *click
+        *dblclick
+        *mousedown
+        *.....
+    -Formularios
+        *input
+        *submit
+        *change
+        *.......
+    -....
+
+Pasos para el manejo de enventos
+    1) Seleccionar el elemento (nodo)
+    2) Indicar el evento en el elemento seleccionado
+    3)escribir el codigo a ejecutar en respuesta al evento
+
+Tipos de manejadores de eventos
+    -Manejadores HTML
+        <elemento onevento ="codigo">
+    -Manejador DOM tradicional
+        elemento.onevento = nombreFuncion
+    -Escuchador (listener) DOM nivel 2
+        elemento.addEventListener('evento',nombreFuncion)
