@@ -1,0 +1,32 @@
+Metodos JQuery
+
+Creacion (ejemplo)
+    $nuevo = $('<p>parrafo</p>')
+    $nuevo = $('<p>')
+    
+contenido
+    .html()         ->      innerHTML
+    .text()         ->      textContent
+    ...
+
+Elementos (insertar elementos)      ->  appendChild
+    .before()       ->      inserta antes de...
+    .after()        ->      inserta despues de...
+    .prepen()       ->      antes del contenido de ...
+    .append()       ->      despues del contenido de.....
+    .....
+
+Atributos
+    .css()          ->      Cambia u obtiene el valor de los elementos
+    .attr()         ->      obtiene o modifica un atributo
+    .addClass()     ->      agrega una clase al elemento
+    .removeClass()  ->      Eliminar una clase del elemento
+
+Eventos
+    Documento   (se llama $().xxxxxx() )
+        .ready()          ->      Se ejecuta al momento de terminar de crear el DOM
+        .load()           ->      Se va a ejecutar al momento que termino de cargar todos los recursos
+
+
+                        abreviado
+jQuery(<selector>) -------------------> $(<selector>)

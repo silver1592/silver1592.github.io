@@ -1,0 +1,34 @@
+JQuery
+"write less, do more"
+
+John Resig (2006)(Secrets of the JavaScript ninja)
+
+Simplifica:
+    Interaccion con HTML
+    Manipulacion de DOM
+        ||      CSS
+    manejo de eventos
+    animaciones
+    interacciones AJAX
+    Garantiza la compatibilidad entre navegadores
+
+Todo se realiza a travez de una funcion llamada [jQuery()] que resibe como parametro una expresion CSS y regresa un objeto jQuery
+
+    var objeto = jQuery(<selector css>)
+
+tipos de selectores
+    *               ->      todos los elementos
+    <elemento>      ->      un tipo de elemento
+    #<id>           ->      En base a un id
+    .clase          ->      en base a una clase
+    sel1,sel2       ->      distintos selectores
+
+Filtros basicos
+    :first          ->      el primero de...
+    :last           ->      el ultimo de ...
+    :eventos        ->      posicion par de ...
+    :odd            ->      posicion impar...
+    :eq(index)      ->      posicion igual al index
+    :gt(index)      ->      mas alla de la posicion....
+    :lt(index)      ->      antes de una posicion....
+    :not(selector)  ->      todos menos.....
