@@ -1,0 +1,12 @@
+JQuery  Eventos
+
+    .onevento(funcion)
+
+
+    .on(<nombre del evento>, funcion)
+    .on(<eventos>,[selector],[datos],funcion(e))
+
+
+
+e           ->  informacion del evento
+<eventos>   ->  lista de eventos separados por un espacio
