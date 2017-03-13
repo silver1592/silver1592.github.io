@@ -1,0 +1,19 @@
+.margen{
+    background: green;
+    width: 200px;
+}
+.borde{
+    background: orange;
+}
+
+.pad{
+    background: blue;
+}
+
+.ejemploCaja{
+    color: red;
+}
+.margen,.borde,.pad{
+    text-align: center;
+    padding: 5px;
+}
