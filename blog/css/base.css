@@ -15,7 +15,7 @@ main{
 	border: 5px #b8bfb0 solid;
 	border-radius: 10px;
 }
-section{
+section,nav{
 	background-color: #75a75f;
 	color: #062c27;
 	border: 5px #b8bfb0 solid;
@@ -33,19 +33,15 @@ article a{
 	display: block;
 	text-decoration:none;
 }
-article h4{
+article h4, article h5, article h3{
 	color: #88a680;
 }
-article h5{
-	color: #88a680;
-}
-article h3{
-	color: #88a680;
-}
-article p{
+article p,li{
 	color: #b8bfb0;
 }
-
+nav a{
+	display: block;
+}
 footer{
 	line-height: 0px;
 	background-color: #003e36;
@@ -59,9 +55,7 @@ footer h5{
 footer a{
 	float: left;
 }
-li{
-	color: #b8bfb0;
-}
+
 .codigo{
 	font:monospace;
 }
