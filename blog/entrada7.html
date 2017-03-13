@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduccion aHTML</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+<div id="hub">
+	<header><h1>Javascript</h1><nav><a href="index.html">Regresar</a></nav></header>
+	<main>
+		<section>
+			<h2>Arreglos en Javascript</h2>
+				<article>
+					<ul>
+						<li><h3>Creacion</h3>
+							<ul>
+								<li>Vacios 
+									<ul class="codigo">
+										<li>var arreglo = new Array();</li>
+										<li>var arreglo = [];</li>
+									</ul>
+								</li>
+								<li>Con elementos (no utiliza new)
+									<ul>
+										<li>var arreglo = Array('hola',123,true);</li>
+										<li>var arreglo = ['hola',123,true];</li>
+					                </ul>
+                				</li>
+               				</ul>
+        				</li>
+        				<li><h3>Acceso</h3>
+	        				<ul>
+	        					<li>Similar a otros lenguajes
+	        						<ul class="codigo">
+	        							<li>var x = arreglo[0];</li>
+	        							<li>arreglo[0] = 'mundo'</li>
+	            					</ul>
+	            				</li>
+	            				<li>Al contrario de otros lenguajes, no daria un error, sino que le agregaria al arreglo todos los elementos que le faltan
+	            					<ul class="codigo">
+	            						<li>arreglo[10]=3456;</li>
+	            					</ul>
+	            				</li>
+	            				<li><span class="codigo">'undefined'</span> Valor regresado cuando es un valor no valido o que excede del arreglo</li>
+							</ul>
+						</li>
+				        <li><h3>Propiedades e Iteracion</h3><p>
+				        	length</p>
+				        	<img src="./imagenes/ciclo_length.PNG">
+				        </li>
+				        <li><h3>Caracteristicas particulares</h3>
+				        	<ul>
+				        		<li>Heterogeneos</li>
+				        		<li>Jagged (dentado)</li>
+				        	</ul>
+				        </li>
+				        <li><h3>Metodos</h3>
+					        <dl>
+					        	<dt>concat()</dt>
+					            	<dd>Une un arreglo con otros</dd>
+					        	<dt>join(&#60;separador&#62;)</dt>
+					            	<dd>une todos los elementos de un arreglo en una cadena, el separador es opcional</dd>
+					        	<dt>push()</dt>
+					        		<dd>Agrega un elmento al final del arrelgo</dd>
+					        	<dt>pop()</dt>
+					        		<dd>Eliminar el ultimo elemento del arreglo</dd>
+					        	<dt>reverse()</dt>
+					        		<dd>Regresa un arreglo con los elementos en orden invertido</dd>
+					        	<dt>sort(&#60;criterio&#62;)</dt>
+					        		<dd>Ordena los elementos de manera ascendente tratandolos como cadenas.<br>Se puede agregar una funcion de criterio</dd>
+				        		<dt>shift()</dt>
+				        			<dd>Elimina del inicio</dd>
+				        		<dt>unshift()</dt>
+				        			<dd>Inserta al inicio</dd>
+				        		<dt>splice()</dt>
+				        			<dd>agregar o eliminar</dd>
+				        		<dt>slice()</dt>
+				        			<dd>extrae un subarreglo</dd>
+				        		<dt>indexOf()</dt>
+				        			<dd>posicion del elemento en el arreglo</dd>
+				        		<dt>forEach(&#60;funcion (elemento, indice, arreglo){}&#62;)</dt>
+			        		</dl>
+				        </li>
+			        </ul>
+				</article>
+			</section>
+	</main>
+	<footer>
+		<a target="_blank" href="http://validator.w3.org/check?uri=https://silver1592.github.io/blog/entrada7.html"><img src="http´:www.w3.org/Icons/valid-html401" alt="Valid HTML"></a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsilver1592.github.io%2Fblog%2Fcss%2Fbase.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=es"><img src="https://https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a>
+	<h5>USALP</h5><h5>Facultad de Ingeniería</h5><h5>Área de computación e informática</h5><h5>Fernando Álvarez Flores</h5></footer>
+    </div>
+</body>
+</html>
