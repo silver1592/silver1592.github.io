@@ -1,0 +1,35 @@
+Efectos y Animaciones (jQuery)
+
+    ocultar / mostrar
+        .hide()
+        .show()
+        .toggle()
+
+    Fundido Gradual
+        .fadeOut()
+        .fadeIn()
+        .fadeToggle()
+        .fadeTo()
+
+    Deslizamiento
+        .slideUp()
+        .slideDown()
+        .slideToggle()
+
+    Animaciones
+        .animate()
+        .clearQueue()
+
+
+    *Parametros
+        Sin parametos
+            default
+        Duracion del Efectos
+            milisegundos
+            "slow"
+            "fast"
+        Suavizado
+            'linear'
+            'swing'
+        callback
+            funcion que se ejecuta al momento de terminar el efecto
