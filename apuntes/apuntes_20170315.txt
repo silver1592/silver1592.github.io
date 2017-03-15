@@ -1,0 +1,16 @@
+jQuery plugins
+
+Un plugin es un script que agrega funcionalidad extra al objeto jQuery
+
+    1.- Incluir el script de jQuery
+    2.- Incluir el script del plugin
+
+jQueryUI    (user interface)
+Es una suite de pluguins que extiende a jQuery con un conjunto de metodos para crear:
+    *widgets
+    *efectos
+    *interacciones
+
+Sintaxis:
+    Es similar a jQuery
+        $(<selector>).metodojQueryUI(parametro)
