@@ -1,0 +1,9 @@
+PHP (PHP Hypertext Procesor)
+
+Antes (Personal Home Page)
+Creado en 1995 por Rasmus Lerdorf (Groenlandia)
+
+Funciona del lado del servidor
+
+CGI (Common gatewat Interface)
+Aplicaciones dle lado del servidor escritas en C/C++/Perl
