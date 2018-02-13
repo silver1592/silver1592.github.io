@@ -5,6 +5,7 @@
 
 body{
     background-color: #002861  ;
+    color: whitesmoke; 
 }
 
 header{
@@ -36,4 +37,9 @@ h1{
     border-color: black;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;    
+}
+
+.perfil{
+    border-radius: 50%;
+    max-width: 100%;
 }
